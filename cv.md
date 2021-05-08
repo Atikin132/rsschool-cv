@@ -11,3 +11,6 @@ My goal is to gain skills in developing android applications. I want to become a
 * C/C++
 * Python
 * Java
+
+# Education
+2017-2021 Belarusian State University of Informatics and Radioelectronics (*Medical Electronics*)
