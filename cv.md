@@ -18,30 +18,30 @@ My goal is to gain skills in front-end development. I want to become a professio
 **Build a pile of Cubes**
 ```java
 public class ASum {
-	public static long findNb(long m) {
-		 long n = 1;
-        while (m>1){
-            n+=1;
-            m-=n*n*n;
-        }
-    return m-1 == 0 ? n : -1;
-	}	
+    public static long findNb(long m) {
+	long n = 1;
+	while (m>1){
+	    n+=1;
+	    m-=n*n*n;
+	}
+	return m-1 == 0 ? n : -1;
+    }	
 }
 ```  
 
 **Bit Counting**
 ```java
 public class BitCounting {
-	public static int countBits(int n){
-    int count =0;
-		while (n!= 0){
-      if(n%2==1){
-		        count+=1;
-		    }
-		    n/=2;
-		}
-    return count;
+    public static int countBits(int n){
+	int count =0;
+	while (n!= 0){
+	    if(n%2==1){
+		count+=1;
+	    }
+	    n/=2;
 	}
+	return count;
+    }
 }
 ```
 
