@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  color: #036280;
+  font-size: 4em;
+}
+
+h2 {
+  color: #378BA4;
+  text-align: center;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font: 20px serif;
+  color: #fff;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.section {
+  width: 70%;
+}
+
+.header {
+  background-color: #012E4A;
+}
+
+header {
+  display: block;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  font: 1em sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-span {
+  border-bottom: 0 solid #fff;
+  transition: 0.2s;
+}
+
+.nav-span:hover {
+  border-bottom-width: 3px;
+}
+
+.main {
+  margin-bottom: auto;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main-link {
+  text-decoration: none;
+  color: #81BECE;
+  border-bottom: 0 solid #81BECE;
+  transition: 0.2s;
+}
+
+.main-link:hover {
+  border-bottom-width: 3px;
+}
+
+.div-info {
+  width: 30%;
+  background-color: #012E4A;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: #fff solid;
+}
+
+.img-profile {
+  margin-top: 99px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10%;
+  border: #fff solid;
+}
+
+.section-summary{
+  border-top: #fff solid;
+}
+
+.contacts-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contacts-list li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+.contacts-list li::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contacts-list li:nth-child(1)::before {
+  background-image: url("./assets/svg/location-logo.svg");
+}
+
+.contacts-list li:nth-child(2)::before {
+  background-image: url("./assets/svg/telegram-logo.svg");
+}
+
+.contacts-list li:nth-child(3)::before {
+  background-image: url("./assets/svg/discord-logo.svg");
+}
+
+.contacts-list li:nth-child(4)::before {
+  background-image: url("./assets/svg/github-logo.svg");
+}
+
+.contacts-list li:nth-child(5)::before {
+  background-image: url("./assets/svg/mail-logo.svg");
+}
+
+.contacts-link {
+  text-decoration: none;
+  color: #378BA4;
+  border-bottom: 0 solid #378BA4;
+  transition: 0.2s;
+}
+
+.contacts-link:hover {
+  border-bottom-width: 3px;
+}
+
+.main-list{
+  padding-inline-start: 20px;
+}
+
+.main-list li{
+  padding-bottom: 10px;
+}
+
+.section-english {
+  margin-bottom: 40px;
+}
+
+.div-experience {
+  color: #000;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: #fff solid;
+}
+
+.section-profile {
+  display: flex;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: #012E4A solid;
+}
+
+.code-title {
+  margin: 0;
+}
+
+.code {
+  background-color: #f6f8fa;
+  margin: 0px;
+}
+
+.footer {
+  background-color: #012E4A;
+  color: #fff;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-link {
+  padding: 0 20px;
+  line-height: 50px;
+  font: 1em sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-span {
+  border-bottom: 0 solid #fff;
+  transition: 0.2s;
+}
+
+.footer-span:hover {
+  border-bottom-width: 3px;
+}
+
+.footer-img-logo {
+  height: 35px;
+}
