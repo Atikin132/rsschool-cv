@@ -6,17 +6,33 @@ html {
   scroll-behavior: smooth;
 }
 
+h1 {
+  color: #036280;
+  font-size: 3em;
+  font-style:initial;
+}
+
+h2 {
+  color: #378BA4;
+  text-align: center;
+}
+
 body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   margin: 0;
   font: 20px serif;
+  color: #fff;
 }
 
 .container {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.section {
+  width: 70%;
 }
 
 .header {
@@ -49,4 +65,103 @@ header {
 
 .nav-span:hover {
   border-bottom-width: 3px;
+}
+
+.main {
+  margin-bottom: auto;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main-link {
+  text-decoration: none;
+  color: #81BECE;
+  border-bottom: 0 solid #81BECE;
+  transition: 0.2s;
+}
+
+.main-link:hover {
+  border-bottom-width: 3px;
+}
+
+.div-info {
+  width: 30%;
+  background-color: #012E4A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: #fff solid;
+}
+
+.img-profile {
+  margin-top: 75px;
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10%;
+  border: #fff solid;
+}
+
+.contacts-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contacts-list li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+.contacts-list li::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contacts-list li:nth-child(1)::before {
+  background-image: url("./assets/svg/location-logo.svg");
+}
+
+.contacts-list li:nth-child(2)::before {
+  background-image: url("./assets/svg/telegram-logo.svg");
+}
+
+.contacts-list li:nth-child(3)::before {
+  background-image: url("./assets/svg/discord-logo.svg");
+}
+
+.contacts-list li:nth-child(4)::before {
+  background-image: url("./assets/svg/github-logo.svg");
+}
+
+.contacts-list li:nth-child(5)::before {
+  background-image: url("./assets/svg/mail-logo.svg");
+}
+
+.contacts-link {
+  text-decoration: none;
+  color: #378BA4;
+  border-bottom: 0 solid #378BA4;
+  transition: 0.2s;
+}
+
+.contacts-link:hover {
+  border-bottom-width: 3px;
+}
+
+.section-profile {
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
 }
