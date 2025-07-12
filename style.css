@@ -9,7 +9,6 @@ html {
 h1 {
   color: #036280;
   font-size: 3em;
-  font-style:initial;
 }
 
 h2 {
@@ -99,9 +98,9 @@ header {
 }
 
 .img-profile {
-  margin-top: 75px;
-  width: 350px;
-  height: 350px;
+  margin-top: 80px;
+  width: 70%;
+  height: 70%;
   object-fit: cover;
   border-radius: 10%;
   border: #fff solid;
@@ -160,8 +159,50 @@ header {
   border-bottom-width: 3px;
 }
 
+.skills-list {
+  padding-inline-start: 20px;
+}
+
+.section-english {
+  margin-bottom: 40px;
+}
+
 .section-profile {
   width: 100%;
   padding-top: 20px;
   text-align: center;
+}
+
+
+
+.footer {
+  background-color: #012E4A;
+  color: #fff;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-link {
+  padding: 0 20px;
+  line-height: 50px;
+  font: 1em sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-span {
+  border-bottom: 0 solid #fff;
+  transition: 0.2s;
+}
+
+.footer-span:hover {
+  border-bottom-width: 3px;
+}
+
+.footer-img-logo {
+  height: 35px;
 }
