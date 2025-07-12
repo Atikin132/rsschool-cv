@@ -94,17 +94,20 @@ header {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-
   border: #fff solid;
 }
 
 .img-profile {
-  margin-top: 80px;
-  width: 70%;
-  height: 70%;
+  margin-top: 99px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   border-radius: 10%;
   border: #fff solid;
+}
+
+.section-summary{
+  border-top: #fff solid;
 }
 
 .contacts-list {
@@ -160,23 +163,17 @@ header {
   border-bottom-width: 3px;
 }
 
-.skills-list {
+.main-list{
   padding-inline-start: 20px;
+}
+
+.main-list li{
+  padding-bottom: 10px;
 }
 
 .section-english {
   margin-bottom: 40px;
 }
-
-/* .div-info {
-  width: 30%;
-  background-color: #012E4A;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: #fff solid;
-} */
 
 .div-experience {
   color: #000;
@@ -184,15 +181,16 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   border: #fff solid;
 }
 
 .section-profile {
   display: flex;
-  height: 30%;
+  height: 450px;
   justify-content: center;
   align-items: center;
-  padding-top: 20px;
+  border-bottom: #012E4A solid;
 }
 
 .code-title {
@@ -201,12 +199,8 @@ header {
 
 .code {
   background-color: #f6f8fa;
-  margin-right: 100px;
   margin: 0px;
 }
-
-
-
 
 .footer {
   background-color: #012E4A;
